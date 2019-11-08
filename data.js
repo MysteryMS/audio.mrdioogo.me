@@ -60,7 +60,7 @@ window.audios = [
         "Esquece",
     artist: "WAZE ft. Zara G & Gson",
     cover: "",
-    file: "tu_falas.mp3"
+    file: "waze_esquece.mp3"
   },
   {
     title:
