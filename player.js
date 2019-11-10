@@ -8,7 +8,7 @@ window.player = {
   currentPlaying: 0,
   start() {
     this.update();
-    this.audio.onended = () => this.next();
+    this.audio.on('end', () => this.next());
   },
   next() {
     this.currentPlaying++;
